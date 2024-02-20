@@ -32,8 +32,9 @@ const Page = () => {
           графика, видео и аудио.
         </p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step5'}>Назад</Button>
+        <p className='text-sm'>6 из 12</p>
         <Button href={'/step7'}>Далее</Button>
       </div>
     </main>

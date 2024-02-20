@@ -26,8 +26,9 @@ const Page = () => {
       <div className="flex flex-auto justify-center h-full items-center">
       <p>Спасибо за внимание 😎 </p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step12'}>Назад</Button>
+        <p className='text-sm'>Конец</p>
         <Button href={'/'}>В начало</Button>
       </div>
     </main>

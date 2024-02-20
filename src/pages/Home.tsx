@@ -26,8 +26,9 @@ const Home = () => {
       <div className="flex flex-auto justify-center h-full items-center">
       <p>Использование анимаций при разработке сайтов</p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step13'}>В конец</Button>
+        <p className='text-sm'>Тема презентации</p>
         <Button href={'/step1'}>Далее</Button>
       </div>
     </main>

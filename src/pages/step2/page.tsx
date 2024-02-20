@@ -39,8 +39,9 @@ const Page = () => {
           масштабирование, вращение, смещение и т.д.
         </p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step1'}>Назад</Button>
+        <p className='text-sm'>2 из 12</p>
         <Button href={'/step3'}>Далее</Button>
       </div>
     </main>

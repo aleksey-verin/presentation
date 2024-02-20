@@ -52,8 +52,9 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step2'}>Назад</Button>
+        <p className='text-sm'>3 из 12</p>
         <Button href={'/step4'}>Далее</Button>
       </div>
     </main>

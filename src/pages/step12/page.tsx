@@ -37,13 +37,10 @@ const Page = () => {
           или 3D-эффекты, могут создавать более глубокий и захватывающий пользовательский опыт,
           привлекая внимание к содержимому сайта.
         </p>
-        <p className='w-4/5 text-3xl leading-normal'>
-          <strong>Улучшенный пользовательский опыт:</strong> Плавные и интуитивно понятные анимации
-          помогают пользователям лучше понимать интерфейс и взаимодействовать с ним.
-        </p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/step11'}>Назад</Button>
+        <p className='text-sm'>12 из 12</p>
         <Button href={'/step13'}>Далее</Button>
       </div>
     </main>

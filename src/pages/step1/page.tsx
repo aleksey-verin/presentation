@@ -30,8 +30,9 @@ const Page = () => {
           их преимущества и способы использования при разработке сайтов.
         </p>
       </div>
-      <div className='w-full flex justify-between'>
+      <div className='w-full flex justify-between items-center'>
         <Button href={'/'}>Назад</Button>
+        <p className='text-sm'>1 из 12</p>
         <Button href={'/step2'}>Далее</Button>
       </div>
     </main>
