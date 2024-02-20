@@ -56,7 +56,7 @@ const Page = () => {
             />
           </Link>
           <Link
-            to={'http://127.0.0.1:5500/18.html'}
+            to={'https://24preprod.ru/meetups/animations/projects/18.html'}
             target='_blank'
             className='h-1/2 w-full flex items-center justify-center rounded-xl overflow-hidden'
           >
