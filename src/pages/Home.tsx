@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-10 text-6xl">
-      <div className="flex flex-auto justify-center h-full items-center">
+      <div className="flex flex-auto justify-center h-full items-center text-center">
       <p>Использование анимаций при разработке сайтов</p>
       </div>
       <div className='w-full flex justify-between items-center'>
