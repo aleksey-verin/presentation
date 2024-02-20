@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 
 const NUM_CONFETTI = 350
 const COLORS = [
