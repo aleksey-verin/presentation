@@ -28,7 +28,6 @@ const Home = () => {
       </div>
       <div className='w-full flex justify-between items-center'>
         <Button href={'/step13'}>В конец</Button>
-        <p className='text-sm'>Тема презентации</p>
         <Button href={'/step1'}>Далее</Button>
       </div>
     </main>
