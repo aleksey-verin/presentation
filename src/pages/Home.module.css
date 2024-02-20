@@ -1,0 +1,38 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  padding: 30px;
+}
+
+.title {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 48px;
+  height: 100%;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.buttonNav {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 24px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+} */

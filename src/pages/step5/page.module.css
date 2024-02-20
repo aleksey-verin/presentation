@@ -1,0 +1,56 @@
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.button1 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  animation: 3s linear infinite button1;
+}
+
+@keyframes button1 {
+  0% {
+    transform: translateX(0); 
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.button2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  animation: 3s ease-in-out infinite alternate button2;
+}
+
+@keyframes button2 {
+  0% {
+    background-color: transparent;
+    color: white;
+    transform: rotate(0);
+  }
+  50% {
+    background-color: lightcoral;
+    color: blue;
+  }
+  100% {
+    background-color: lightgreen;
+    color: brown;
+    transform: rotate(360deg);
+  }
+}
